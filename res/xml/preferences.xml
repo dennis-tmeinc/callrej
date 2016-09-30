@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="Reject Call"
+        android:defaultValue="true"
+        android:summary="Reject all incoming calls."
+        android:key="endcall" />
+    <SwitchPreference android:title="Enable Data"
+        android:defaultValue="true"
+        android:summary="Turn on mobile data on receiving calls."
+        android:key="data_enable" />
+    <SwitchPreference android:title="Enable Wifi"
+        android:defaultValue="false"
+        android:summary="Turn on wifi on receiving calls."
+        android:key="wifi_enable" />
+    <SwitchPreference android:title="Trigger Hangouts"
+        android:defaultValue="false"
+        android:summary="Run Hangouts on receiving calls."
+        android:key="startHangouts" />
+    <SwitchPreference android:title="Trigger Fongo"
+        android:defaultValue="false"
+        android:summary="Run Fongo on receifing calls."
+        android:key="startFongo" />
+</PreferenceScreen>
